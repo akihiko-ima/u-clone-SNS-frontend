@@ -2,8 +2,8 @@ import Head from "next/head";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 
-import apiClient from "./lib/apiClient";
-import { useAuth } from "./context/auth";
+import apiClient from "../lib/apiClient";
+import { useAuth } from "../context/auth";
 
 const Login = () => {
   const [email, setEmail] = useState<string>("");

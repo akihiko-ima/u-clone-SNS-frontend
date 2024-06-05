@@ -1,7 +1,7 @@
 import { GetServerSideProps } from "next";
 import React from "react";
-import apiClient from "../lib/apiClient";
-import { PostType, Profile } from "../Types";
+import apiClient from "../../lib/apiClient";
+import { PostType, Profile } from "../../types/Types";
 
 type Props = {
   profile: Profile;

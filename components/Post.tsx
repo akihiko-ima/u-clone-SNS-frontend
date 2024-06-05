@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { PostType } from "../Types";
+import { PostType } from "../types/Types";
 
 type Props = {
   post: PostType;

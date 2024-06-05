@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-import apiClient from "./lib/apiClient";
+import apiClient from "../lib/apiClient";
 
 const Signup = () => {
   const [username, setUsername] = useState<string>("");
